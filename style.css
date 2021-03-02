@@ -1,0 +1,163 @@
+/* ================
+     Style
+==================*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+}
+
+.navbar-collapse ul li a{
+    font-weight: 500;
+}
+
+.navbar-collapse ul li a:hover{
+    color: black !important;
+    transform: scale(1.2);
+    font-weight: 500;
+}
+
+.homeimg img:hover{
+    transform: scale(1.05);
+}
+
+.homebtn button{
+    font-size: 15px;
+}
+
+.homebtn button:hover{
+    transform: scale(1.04);
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+
+.card img:hover{
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.jumbotron button:hover{
+    transform: scale(1.05);
+}
+
+.footer span{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footer span:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: orange;
+}
+
+
+/* ======================
+         Media
+======================== */
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .homebtn h1{
+        font-size: 35px !important;
+    }
+
+    .homebtn button{
+        width: 80%;
+    }
+
+    .homebtn .light{
+        margin-right: 10px;
+    }
+
+    .homeimg{
+        text-align: center;
+    }
+
+    .homeimg img{
+        width: 90%;
+    }
+
+    .karusel{
+        margin-bottom: 30px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .jumbotron h1{
+        font-size: 25px;
+    }
+
+    .jumbotron button{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .jumbotron{
+        text-align: center;
+    }
+
+    .jumbotron .dow{
+        margin-right: 26px;
+    }
+
+    .footer p , span{
+        font-size: 12px;
+    }
+}
+
+/* ==========
+    Small(sm)
+============ */
+
+@media (min-width: 576px) {
+    .homebtn h1{
+        font-size: 45px !important;
+    }
+
+    .homeimg{
+        text-align: center;
+    }
+
+    .karusel{
+        margin-bottom: 30px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+
+    .footer p , span{
+        font-size: 14px;
+    }
+}
+
+/* ==========
+    Medium(md)
+============ */
+
+@media (min-width: 768px) {
+
+}
+
+/* ==========
+    Large(lg)
+============ */
+
+@media (min-width: 992px) { 
+
+}
+
+/* ==========
+    Extra(xl) large
+============ */
+
+@media (min-width: 992px) { 
+
+}
